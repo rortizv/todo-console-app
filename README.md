@@ -1,6 +1,6 @@
 # todo-console-app
 
-This is a TODO console app
+This is a TODO console app using JavaScript
 
 You can:
 - Create task
