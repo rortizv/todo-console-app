@@ -12,9 +12,14 @@ const readFromDB = () => {
         return null;
     }
 
-    const info = fs.readFileSync(file, { encoding: 'utf-8' });
-    const data = JSON.parse(info);
-    return data;
+    try {
+        const info = fs.readFileSync(file, { encoding: 'utf-8' });
+        const data = JSON.parse(info);
+        return data;
+    } catch (error) {
+        console.error('Error reading from the database:', error);
+        return null;
+    }
 }
 
 
