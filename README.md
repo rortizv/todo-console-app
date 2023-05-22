@@ -20,6 +20,11 @@ Dependencies used:
     "uuid": "^9.0.0"
 }
 
+Inquirer is an npm package defined as a collection of common interactive command line user interfaces.  Makes it easier to create interactive console menus with input handling, confirm (Y/N), multi selecting and more.
+Check out the documentation: https://www.npmjs.com/package/inquirer
+
+uuid is another npm package used to generate unique universal ids.
+Check out the documentation: https://www.npmjs.com/package/uuid
 
 DB is a simple .json file with an array of tasks.
 
